@@ -105,7 +105,7 @@ Change `MODEL_NAME` if you installed a different model (e.g., `gemma3`, `mistral
 ### 6. Run the Server
 
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 Visit:
